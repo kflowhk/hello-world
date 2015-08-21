@@ -11,6 +11,8 @@ public class SplitMODSXML {
      InputStreamReader isr = new InputStreamReader(fis,"utf-8");
      BufferedReader br = new BufferedReader(isr);
      
+     // This is the default XML header
+     
      String modsStr = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<modsCollection xmlns=\"http://www.loc.gov/mods/v3\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd\">\n";
      
      String str = "";
