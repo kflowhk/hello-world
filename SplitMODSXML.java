@@ -5,6 +5,8 @@ public class SplitMODSXML {
 
    public static void main(String args[]) throws Exception
    {
+     // Program for generating the MOD files
+
      FileInputStream fis = new FileInputStream(args[0]);
      InputStreamReader isr = new InputStreamReader(fis,"utf-8");
      BufferedReader br = new BufferedReader(isr);
