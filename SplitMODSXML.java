@@ -21,6 +21,8 @@ public class SplitMODSXML {
      
      str = br.readLine();
      
+     // replace all the null tags
+     
      while(str!=null)
      {
        str = str.replaceAll(">null<","><");
